@@ -33,11 +33,13 @@ body {
   	border-radius: 5px;
   	padding: 10px 30px;
   	margin-top: 10px;
+    cursor: pointer;
     font-family: 'Nunito';
 }
 #button-masuk:hover {
     background-color: hsl(255, 50%, 25%);
-    color: hsl(0, 0%, 80%)
+    color: hsl(0, 0%, 80%);
+    cursor: pointer;
 }
 #lupa-pw:hover {
     text-decoration: underline;
