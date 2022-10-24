@@ -1,9 +1,10 @@
 # Apa ini?
-Ini adalah sebuah tugas dari pak Ubay.
+Kami berdua, Rava dan Efraim, adalah siswa X PPLG SMK Metland.
+Repo ini berisi salah satu tugas dari pak Ubay.
 
 # Siapa yang mengerjakan?
 - Rava
-- Efraim (membuat form muncul ke tengah dengan flex)
+- Efraim
 
 # Catatan..
-Setelah tugas ini selesai, Efraim akan mentraktir Rava 1 porsi nasi goreng di kantin.
+Setelah tugas ini selesai, Rava akan mentraktir Efraim 1 porsi nasi goreng di kantin.
