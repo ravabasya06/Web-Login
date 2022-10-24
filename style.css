@@ -3,6 +3,14 @@ body {
     background-color: #333;
   	font-family: 'Nunito',sans-serif;
 }
+
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .form-input-tab {
     background-color: #333;
     color: white;
