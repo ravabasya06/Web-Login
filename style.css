@@ -1,68 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-*{
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  box-sizing: border-box;
 }
 
 body {
-    margin: 20px;
-    background-color: #333;
-  	font-family: 'Nunito',sans-serif;
+  margin: 20px;
+  background-color: #111;
+  font-family: "Nunito", sans-serif;
 }
 
-main{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
+main {
+  min-height: 30rem;
+  display: flex;
+  justify-content: center;
 }
 
 .form-input-tab {
-    background-color: #333;
-    color: white;
+  background-color: #333;
+  color: white;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: black 0px 0px 20px;
+  margin: auto;
+}
+.form-input-tab > h1 {
+  margin-top: 0;
 }
 #form-input {
-  	background-color: #222222;
-  	border: none;
-  	border-radius: 4px;
-  	font-size: 20px;
-  	margin-bottom: 10px;
-    padding: 10px;
-    padding-right: 50px;
-  	color: white;
-    font-family: 'Nunito';
-
-    display: block;
+  display: block;
+  background-color: #222222;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  padding-right: 50px;
+  color: white;
+  font-family: "Nunito";
 }
 #lupa-pw {
-  	text-decoration: none;
-  	color: hsl(46, 100%, 56%);
+  text-decoration: none;
+  color: hsl(46, 100%, 56%);
 }
 #sign-up {
-    text-decoration: none;
-    color: hsl(46, 100%, 56%);
+  text-decoration: none;
+  color: hsl(46, 100%, 56%);
 }
 
-a{
-    display: block;
+a {
+  display: block;
 }
 
 #button-masuk {
-  	background-color: hsl(255, 50%, 45%);
-  	color: white;
-  	border: none;
-  	border-radius: 5px;
-  	padding: 10px 30px;
-  	margin-top: 10px;
-    cursor: pointer;
-    font-family: 'Nunito';
+  background-color: hsl(255, 50%, 45%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-family: "Nunito";
 }
 #button-masuk:hover {
-    background-color: hsl(255, 50%, 25%);
-    color: hsl(0, 0%, 80%);
-    cursor: pointer;
+  background-color: hsl(255, 50%, 25%);
+  color: hsl(0, 0%, 80%);
+  cursor: pointer;
 }
 #lupa-pw:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 #sign-up:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
